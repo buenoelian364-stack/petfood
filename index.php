@@ -21,7 +21,7 @@ require_once _DIR_ . '/bootstrap.php';
     <nav class="sidebar" id="sidebar">
         <div class="logo">Pet Nutrition</div>
         <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.php" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="info.html">Information</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -183,7 +183,7 @@ require_once _DIR_ . '/bootstrap.php';
                 <div class="footer-column">
                     <h4>Pages</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="info.html">Information</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -251,6 +251,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 </body>
 </html>
+
 
 
 
