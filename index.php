@@ -4,7 +4,7 @@ ini_set('log_errors', '1');                 // log errors
 ini_set('error_log', 'php://stderr');       // send to DO log stream
 error_reporting(E_ALL);
 
-$boot = _DIR_ . '/bootstrap.php';
+$boot = __DIR__ . '/bootstrap.php';
 if (!file_exists($boot)) {
   http_response_code(500);
   echo "bootstrap.php missing at: " . $boot;
@@ -263,6 +263,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 </body>
 </html>
+
 
 
 
