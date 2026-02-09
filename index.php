@@ -1,5 +1,17 @@
 <?php
-require_once _DIR_ . '/bootstrap.php';
+ini_set('display_errors', '0');              // don’t show users
+ini_set('log_errors', '1');                 // log errors
+ini_set('error_log', 'php://stderr');       // send to DO log stream
+error_reporting(E_ALL);
+
+$boot = _DIR_ . '/bootstrap.php';
+if (!file_exists($boot)) {
+  http_response_code(500);
+  echo "bootstrap.php missing at: " . $boot;
+  exit;
+}
+
+require_once $boot;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -251,6 +263,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 </body>
 </html>
+
 
 
 
